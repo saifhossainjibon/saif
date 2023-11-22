@@ -1,0 +1,95 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #0A192F;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8892B0;
+    height: 10%;
+    border-radius: 10px;
+}
+body{
+    background-color: #0A192F!important;
+    font-family: 'Lato', sans-serif !important;
+    cursor: url(images/cursor.png), auto;
+
+}
+h1 {
+    color: #CCD6F6;
+    font-size: 70px!important;
+}
+
+
+.name{
+    color: #64ffda;
+}
+.title{
+    color: #8892B0;
+}
+.button{
+    margin: 30px;
+    text-decoration: none;
+    color: #64ffda;
+    background-color: #0A192F;
+    border: 1px solid #64ffda;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.project-btn{
+    margin: 10px;
+    font-size: small;
+    text-decoration: none;
+    color: #64ffda;
+    background-color: #0A192F;
+    border: 1px solid #64ffda;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.title-me{
+    color: #CCD6F6;
+
+}
+.project-style{
+    margin: 150px 0px;
+    margin-left: 10px;
+    /* text-decoration: none; */
+    color: #64ffda;
+    background-color: #0A192F;
+    border: 1px solid #64ffda;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.top-margin{
+    margin-top: 200px;
+}
+.project-description{
+    background-color: #112240;
+    color: #8892B0;
+    padding: 30px 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    
+}
+.git-live{
+    color:#CCD6F6 ;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.fa-hand-point-right{
+    color: orange;
+}
+/* .image-border{
+    border-radius: 10px ;
+    border: 2px solid #CCD6F6;
+    margin-left: 10px;
+} */
